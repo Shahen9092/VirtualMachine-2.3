@@ -15,6 +15,7 @@ goto square
 label square
 push constant 1
 pop temp 0
+goto loop
 
 label loop
 
