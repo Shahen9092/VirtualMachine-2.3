@@ -10,6 +10,7 @@ label makepositive
 push argument 0
 neg
 pop argument 1
+goto square
 
 label square
 push constant 1
