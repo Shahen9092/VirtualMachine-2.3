@@ -32,7 +32,7 @@ push constant 1
 push temp 0
 eq
 if-goto end_loop
-push temp 2 0
+push temp 2
 push temp 1
 eq
 if-goto end_loop
