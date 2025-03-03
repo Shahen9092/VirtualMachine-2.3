@@ -19,7 +19,7 @@ pop temp 2
 goto square
 
 label square
-push constant 0
+push constant 1
 pop temp 1
 goto loop
 
