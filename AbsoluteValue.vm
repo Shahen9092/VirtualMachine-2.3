@@ -17,6 +17,8 @@ if-goto flag2
 push constant 32767
 and
 if-goto flag2
+push constant 0
+pop argument 3
 
 push argument 0
 neg
