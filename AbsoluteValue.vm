@@ -1,17 +1,15 @@
 push argument 0 
 push constant 0
+lt
+if-goto flag1
+push constant 0
+pop argument 2
+push argument 0
+pop argument 1
 push constant 0
 pop argument 2
 push constant 0
 pop argument 3
-eq
-if-goto flag2
-push argument 0
-push constant 0
-lt
-if-goto flag1
-push argument 0
-pop argument 1
 goto end
 
 label flag1
@@ -21,9 +19,7 @@ pop argument 2
 push argument 0
 if-goto flag2
 push constant 32767
-add
-push constant 1
-add
+and
 if-goto flag2
 
 push argument 0
