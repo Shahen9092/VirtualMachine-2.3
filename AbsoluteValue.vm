@@ -8,6 +8,9 @@ pop argument 2
 push argument 0
 pop argument 1
 
+push constant 0
+pop argument 3
+
 goto end
 
 label flag1
