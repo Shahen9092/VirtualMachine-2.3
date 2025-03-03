@@ -4,6 +4,8 @@ lt
 if-goto makepositive
 push argument 0
 pop temp 0
+push argument 0
+pop temp 2
 goto square
 
 label makepositive
