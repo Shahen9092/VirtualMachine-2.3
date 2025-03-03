@@ -12,7 +12,7 @@ neg
 pop argument 1
 
 label square
-push constant 0
+push constant 1
 pop temp 0
 
 label loop
