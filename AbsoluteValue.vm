@@ -13,10 +13,6 @@ push constant 1
 pop argument 2
 
 push argument 0
-push constant 32767
-add
-push constant 1
-add
 if-goto flag2
 
 push argument 0
