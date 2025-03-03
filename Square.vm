@@ -34,7 +34,7 @@ eq
 if-goto end_loop
 push temp 2
 push temp 1
-eq
+gt
 if-goto end_loop
 push temp 0
 push temp 2
