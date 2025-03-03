@@ -10,6 +10,10 @@ label makepositive
 push argument 0
 neg
 pop temp 0
+
+push argument 0
+neg
+pop temp 3
 goto square
 
 label square
@@ -24,7 +28,7 @@ push temp 1
 eq
 if-goto end_loop
 push temp 0
-push argument 0
+push argument 3
 add
 pop temp 0
 
