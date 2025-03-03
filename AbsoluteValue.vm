@@ -23,6 +23,8 @@ if-goto flag2
 push argument 0
 neg
 pop argument 1
+push constant 1
+pop argument 3
 goto end
 
 label flag2
