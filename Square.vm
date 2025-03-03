@@ -28,7 +28,7 @@ push temp 1
 eq
 if-goto end_loop
 push temp 0
-push argument 3
+push temp 3
 add
 pop temp 0
 
