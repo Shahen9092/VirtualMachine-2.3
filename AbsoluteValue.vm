@@ -1,0 +1,33 @@
+push argument 0 
+push constant 0
+lt
+if-goto flag1
+push constant 0
+pop argument 2
+push argument 0
+pop argument 1
+goto end
+
+label flag1
+push constant 1
+pop argument 2
+
+push argument 0
+push constant -32768
+eq
+if-goto flag2
+
+push argument 0
+neg
+pop argument 1
+goto end
+
+label flag2
+push constant 1
+pop argument 3
+push argument 0
+pop argument 1
+
+label end
+
+
